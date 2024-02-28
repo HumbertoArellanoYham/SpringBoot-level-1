@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result view</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p th:text="'id: ' + ${greeting.id}"></p>
+    <p th:text="'content: ' + ${greeting.content}"></p>
+    <a href="/greeting">Submit another message</a>
+</body>
+</html>
